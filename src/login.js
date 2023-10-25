@@ -5,7 +5,7 @@ import Footer from './includes/Footer';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './main.css';
-import AppStart from './AppStart';
+import LoginApp from './LoginApp';
 
 const root = ReactDOM.createRoot(document.getElementById('body'));
 root.render(
@@ -13,7 +13,7 @@ root.render(
     <Nav />
     <main>
       <Header />
-      <AppStart />
+      <LoginApp />
     </main>
     <Footer />
   </React.StrictMode>
