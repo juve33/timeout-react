@@ -1,9 +1,9 @@
 import './Card.css';
 
-function Card(props) {
+function Card({color, content}) {
   return (
-    <div className={"card " + props.color}>
-      {props.content}
+    <div className={"card " + color}>
+      {content}
     </div>
   );
 }

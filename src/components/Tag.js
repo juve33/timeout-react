@@ -1,9 +1,9 @@
 import './Buttons.css';
 
-function Tag(props) {
+function Tag({color, content}) {
   return (
-    <li className={props.color}>
-      {props.content}
+    <li className={color}>
+      {content}
     </li>
   );
 }

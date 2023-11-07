@@ -1,20 +1,14 @@
-import Nav from './includes/Nav';
-import Header from './includes/Header';
-import Footer from './includes/Footer';
+import Layout from './layouts';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './main.css';
 import LoginApp from './LoginApp';
 
 const root = ReactDOM.createRoot(document.getElementById('body'));
 root.render(
   <React.StrictMode>
-    <Nav />
-    <main>
-      <Header />
+    <Layout>
       <LoginApp />
-    </main>
-    <Footer />
+    </Layout>
   </React.StrictMode>
 );

@@ -1,6 +1,7 @@
 import './AppStart.css';
 import Card from './components/Card';
 import TagList from './components/TagList';
+import Tag from './components/Tag';
 
 function App() {
   return (
@@ -12,7 +13,13 @@ function App() {
       <Card color="green" content="Erledigt" />
       <Card color="purple" content="noch ein Ordner" />
 
-      <TagList />
+      <TagList>
+        <Tag content="Haushalt" />
+        <Tag content="Freunde" />
+        <Tag content="Sport" />
+        <Tag content="Studium" />
+        <Tag content="Sonstiges" />
+      </TagList>
 
       <div className="add">+</div>
     </div>
